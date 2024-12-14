@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
+  margin: 0;
+}
+.button-3d {
+  background-color: #3d91f5;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 30px 60px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 14px 0px #013472, 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.button-3d:active {
+  transform: translateY(2px);
+  box-shadow: 0px 6px 0px #013472, 0 6px 10px rgba(0, 0, 0, 0.2);
+}
